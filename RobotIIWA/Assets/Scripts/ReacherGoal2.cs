@@ -10,8 +10,9 @@ public class ReacherGoal2 : MonoBehaviour
     public GameObject agent;
     public GameObject hand;
     public GameObject goalOn;
+   
 
-     void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == hand)
         {
@@ -32,9 +33,6 @@ public class ReacherGoal2 : MonoBehaviour
         if (other.gameObject == hand)
         {
             agent.GetComponent<ReacherRobot2>().AddReward(0.01f);
-            //parentAgent.SetResetParameters();
-
-            //parentAgent.UpdateGoalPosition();
         }
     }
 

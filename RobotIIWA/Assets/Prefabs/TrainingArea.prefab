@@ -3281,7 +3281,7 @@ MonoBehaviour:
   hand: {fileID: 2252671070394925838}
   goal: {fileID: 2252671069782086673}
   m_GoalHeight: 0.9
-  blHeuristic: 1
+  blHeuristic: 0
 --- !u!114 &5607979924891918085
 MonoBehaviour:
   m_ObjectHideFlags: 0

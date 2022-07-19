@@ -96,7 +96,7 @@ public class ReacherRobot2 : Agent
     {
         m_GoalRadius = Random.Range(0.6f, 0.6f);
         m_GoalDegree = Random.Range(0f, 360f);
-        m_GoalSpeed = Random.Range(-1f, 1f); //-2,2
+        m_GoalSpeed = Random.Range(-1.5f, 1.5f); //-2,2
         m_GoalDeviation = Random.Range(-0.2f, 0.2f); //-1,1
         m_GoalDeviationFreq = Random.Range(0f, 3.14f); // 0,3.14
     }
